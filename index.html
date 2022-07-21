@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Morse Code Translator</title>
+    </head>
+    <body>
+        <main class="translator">
+            <section class="translator__header">
+                <h1 class="translator__header--title">Morse Code Translator</h1>
+            </section>
+
+            <section class="translator__user-input">
+                <label for="englishInput">English</label><br />
+                <textarea
+                    id="englishInput"
+                    cols="100"
+                    rows="10"
+                    placeholder="Please enter text in English here to be translated into Morse Code."
+                ></textarea>
+                <div class="translator__user-input--buttons">
+                    <button
+                        id="btnSubmitEnglish"
+                        class="translator__user-input--buttons-btn"
+                    >
+                        Translate
+                    </button>
+                    <button
+                        id="btnClearEnglish"
+                        class="translator__user-input--buttons-btn"
+                    >
+                        Clear
+                    </button>
+                </div>
+            </section>
+            <section class="translator__user-input">
+                <label for="morseInput">Morse Code</label><br />
+                <textarea
+                    id="morseInput"
+                    cols="100"
+                    rows="10"
+                    placeholder="Please enter Morse Code in here to be translated into English. Please separate each letter by space and words by '/'."
+                ></textarea>
+                <div class="translator__user-input--buttons">
+                    <button
+                        id="btnSubmitMorse"
+                        class="translator__user-input--buttons-btn"
+                    >
+                        Translate
+                    </button>
+                    <button
+                        id="btnClearMorse"
+                        class="translator__user-input--buttons-btn"
+                    >
+                        Clear
+                    </button>
+                </div>
+            </section>
+
+            <section class="translator__footer">
+                <h2>Morse Code Guide</h2>
+                <div class="">
+                    <img src="" />
+                </div>
+            </section>
+        </main>
+
+        <script type="module" src=""></script>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+textarea {
+  resize: none;
+  border: 3px solid greenyellow;
+  height: 100px;
+  width: 500px;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 5rem;
+  color: black;
+  background-color: greenyellow;
+  border: 3px solid black;
+}
+
+.translator {
+  width: 800px;
+  height: 700px;
+  background-image: url("./images/bg-image.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+}
+.translator__header {
+  margin-top: 5px;
+  padding: 2px;
+}
+.translator__header--title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  background-color: greenyellow;
+  border: 3px solid black;
+  font-weight: 10rem;
+  font-size: xx-large;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.translator__user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 22px;
+}
+.translator__user-input--buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  font-size: 27px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 5rem;
+  color: black;
+  background-color: greenyellow;
+  border: 3px solid black;
+  padding: 5px;
+  margin-top: 10px;
+}
+.translator__user-input--buttons-btn {
+  height: 35px;
+  width: 120px;
+  font-size: 20px;
+  color: black;
+  background-color: darkgreen;
+  margin: 6px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+.translator__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 5rem;
+  color: black;
+  background-color: greenyellow;
+  border: 3px solid black;
+  color: black;
+  padding: 5px;
+}
