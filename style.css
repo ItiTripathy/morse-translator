@@ -24,7 +24,6 @@ textarea {
 label {
   font-size: 27px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 5rem;
   color: black;
   background-color: greenyellow;
   border: 3px solid black;
@@ -94,6 +93,5 @@ label {
   color: black;
   background-color: greenyellow;
   border: 3px solid black;
-  color: black;
   padding: 5px;
 }
