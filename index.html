@@ -43,7 +43,7 @@
                     id="morseInput"
                     cols="100"
                     rows="10"
-                    placeholder="Please enter Morse Code in here to be translated into English. Please separate each letter by space and words by '/'."
+                    placeholder="Please enter Morse Code in here to be translated into English. Please separate each character by a space."
                 ></textarea>
                 <div class="translator__user-input--buttons">
                     <button
@@ -62,13 +62,17 @@
             </section>
 
             <section class="translator__footer">
-                <h2>Morse Code Guide</h2>
-                <div class="">
-                    <img src="" />
-                </div>
+                <h2>
+                    <a
+                        class="translator__footer--link"
+                        href="./images/morsecode.png"
+                        target="_blank"
+                        >Morse Code Guide</a
+                    >
+                </h2>
             </section>
         </main>
 
-        <script type="module" src=""></script>
+        <script type="module" src="./scripts/dom-utils.js"></script>
     </body>
 </html>

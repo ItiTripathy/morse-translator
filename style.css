@@ -31,17 +31,13 @@ label {
 
 .translator {
   width: 800px;
-  height: 700px;
+  height: 640px;
   background-image: url("./images/bg-image.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 5px solid black;
-}
-.translator__header {
-  margin-top: 5px;
-  padding: 2px;
 }
 .translator__header--title {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -57,7 +53,7 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-bottom: 22px;
+  padding-bottom: 18px;
 }
 .translator__user-input--buttons {
   display: flex;
@@ -94,4 +90,7 @@ label {
   background-color: greenyellow;
   border: 3px solid black;
   padding: 5px;
+}
+.translator__footer--link {
+  color: black;
 }

@@ -33,7 +33,7 @@ label {
 
 .translator {
     width: 800px;
-    height: 700px;
+    height: 640px;
     background-image: palette.$primary-bg-image;
 
     display: flex;
@@ -43,9 +43,6 @@ label {
     border: 5px solid black;
 
     &__header {
-        margin-top: 5px;
-        padding: 2px;
-
         &--title {
             font-family: palette.$primary-font;
             color: palette.$primary-font-color;
@@ -61,7 +58,7 @@ label {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding-bottom: 22px;
+        padding-bottom: 18px;
 
         &--buttons {
             display: flex;
@@ -100,5 +97,9 @@ label {
         background-color: palette.$primary-bg-color;
         border: palette.$primary-border;
         padding: 5px;
+
+        &--link {
+            color: palette.$primary-font-color;
+        }
     }
 }
