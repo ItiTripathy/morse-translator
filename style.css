@@ -30,7 +30,7 @@ label {
 }
 
 .translator {
-  width: 800px;
+  width: 700px;
   height: 640px;
   background-image: url("./images/bg-image.jpg");
   display: flex;
