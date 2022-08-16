@@ -2,6 +2,10 @@
 
 A web page for Morse Code-to-English &amp; English-to-Morse Code Translation
 
+## Live Image
+
+![TargetImage](./images/live-image.png)
+
 ## Outline
 
 This task will require you to create a web page Morse Code translator. The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
@@ -20,10 +24,6 @@ This task will require you to create a web page Morse Code translator. The User 
 4. Make sure to separate pure JS functions and DOM manipulation
 
 5. Add unit testings for each of the pure function that your translator uses (each function should have at least 4 tests, think of edge case, wrong inputs, etc ...)
-
-## Live Image
-
-![TargetImage](./images/live-image.png)
 
 ## HTML Implementation
 
@@ -47,3 +47,17 @@ This task will require you to create a web page Morse Code translator. The User 
 2. Test cases for the function isValidMorse() which checks if the input text in morse are valid or not
 3. Test cases for the fuction toMorse() which returns the translation of english input to morse code if the input is valid or else throws an error
 4. Test cases for the fuction toEnglish() which returns the translation of morse code input to english if the input is valid or else throws an error
+
+## Known issues
+
+-   The alert window is displayed before the error is thrown. To be fixed.
+
+## Future goals / changes
+
+## Issues/Roadblocks faced
+
+-   With the TDD approach, several of code flow and return values had to be updated. It was actually helpful in fixing bugs even before they turned into bugs.
+
+## Contribution
+
+-   Favicon was designed using the website : https://www.favicon.cc/
