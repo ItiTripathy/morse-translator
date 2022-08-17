@@ -25,6 +25,36 @@ This task will require you to create a web page Morse Code translator. The User 
 
 5. Add unit testings for each of the pure function that your translator uses (each function should have at least 4 tests, think of edge case, wrong inputs, etc ...)
 
+## Setup
+
+-   Install VS Code for development
+
+-   GitHub setup for adding the project to the repository : Important Commands :
+
+    -   git remote add origin git@github.com:ItiTripathy/portfolio-website.git
+    -   git add .
+    -   git commit -m "Comment"
+    -   git push origin main
+
+-   Install and run SCSS settings : Important Command [sass --watch --no-source-map style.scss style.css ]
+
+-   Unit Testing Setup :
+    -   Step-1: npm install --save-dev jest
+    -   Step-2: "scripts": {
+        "test": "jest"
+        } add this code to package.json
+    -   Step-3: Adding babel:
+        npm install --save-dev babel-jest @babel/core @babel/preset-env
+    -   Step-4: create a babel.config.js file
+    -   Step-5: Add the following to the babel.config.js file : module.exports = {
+        presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+        paste this block of code to the babel config file
+        import { something } from "./file.js"
+        module.export = { something }
+        const myModule = require("./place.js")
+        myModule.something
+    -   Step-6: Add a .gitignore file and add "node_modules" inside it.
+
 ## HTML Implementation
 
 1. The index.html + style.scss files have the UI design and implementation of the morse code translator.
@@ -53,6 +83,8 @@ This task will require you to create a web page Morse Code translator. The User 
 -   The alert window is displayed before the error is thrown. To be fixed.
 
 ## Future goals / changes
+
+-   Add the "Morse Code Guide" link to open a pop-up at the bottom of the webpage.
 
 ## Issues/Roadblocks faced
 
